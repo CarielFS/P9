@@ -16,4 +16,5 @@ public class EmpleadoComision{
 	public String toString(){
 		return "Empleado por comisión [" + getNombre() + " " + getApellido() + ". SegSocial: " + getNumSeguridad() + ". Sueldo: " + getIngresos() + "]";
 	}
+  //Holaaaa
 }
