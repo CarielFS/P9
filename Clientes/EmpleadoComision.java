@@ -1,4 +1,4 @@
-public class EmpleadoComision{
+public class EmpleadoComision extends Empleado{
 	private int ventasTotales;
 	private float tasaComision;
 
