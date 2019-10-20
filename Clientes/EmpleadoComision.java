@@ -8,13 +8,13 @@ public class EmpleadoComision{
 		this.tasaComision = tasaComision;
 	}
 
-	public abstract float ingresos(float salarioSemanal){
-
+	public abstract float ingresos(){
+		double salarioSemanal = super.getSalarioSemanal();
+		return (salarioSemanal + ventasTotales*tasaComision);
 	}
 
 	@Override
 	public String toString(){
 		return "Empleado por comisión [" + getNombre() + " " + getApellido() + ". SegSocial: " + getNumSeguridad() + ". Sueldo: " + getIngresos() + "]";
 	}
-  //Holaaaa
 }
